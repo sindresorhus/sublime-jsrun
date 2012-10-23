@@ -16,7 +16,7 @@ class JsRunCommand(sublime_plugin.TextCommand):
 			else:
 				selection += self.view.substr(region) + '\n'
 		selection = selection.strip().replace('"', '\\"')
-		if selection in ('', '\n'):
+		if not selection:
 			return
 		self.runjs(selection)
 

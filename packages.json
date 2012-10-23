@@ -5,10 +5,10 @@
 		"description": "Run selected JavaScript code in the browser",
 		"author": "Sindre Sorhus",
 		"homepage": "https://github.com/sindresorhus/sublime-jsrun",
-		"last_modified": "2012-10-23 20:07:00",
+		"last_modified": "2012-10-23 23:45:00",
 		"platforms": {
 			"osx": [{
-				"version": "0.1.1",
+				"version": "0.1.2",
 				"url": "https://nodeload.github.com/sindresorhus/sublime-jsrun/zipball/master"
 			}]
 		}
