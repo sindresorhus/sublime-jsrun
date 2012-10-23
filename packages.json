@@ -1,0 +1,16 @@
+{
+	"schema_version": "1.2",
+	"packages": [{
+		"name": "JsRun",
+		"description": "Run selected JavaScript code in the browser",
+		"author": "Sindre Sorhus",
+		"homepage": "https://github.com/sindresorhus/sublime-jsrun",
+		"last_modified": "2012-10-23 19:35:00",
+		"platforms": {
+			"osx": [{
+				"version": "0.1.0",
+				"url": "https://nodeload.github.com/sindresorhus/sublime-jsrun/zipball/master"
+			}]
+		}
+	}]
+}
