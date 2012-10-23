@@ -31,6 +31,12 @@ class JsRunCommand(sublime_plugin.TextCommand):
 					execute front window's active tab javascript "%s"
 				end tell
 			""" % selection)
+		if browser == 'chrome_canary':
+			self._applescript("""
+				tell application "Google Chrome Canary"
+					execute front window's active tab javascript "%s"
+				end tell
+			""" % selection)
 		if browser == 'safari':
 			self._applescript("""
 				tell application "Safari" to do JavaScript "%s" in document 1
