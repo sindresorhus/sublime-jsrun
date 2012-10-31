@@ -27,15 +27,11 @@ class JsRunCommand(sublime_plugin.TextCommand):
 		browser = settings.get('browser')
 		if browser == 'chrome':
 			self._applescript("""
-				tell application "Google Chrome"
-					execute front window's active tab javascript "%s"
-				end tell
+				tell application "Google Chrome" to execute front window's active tab javascript "%s"
 			""" % selection)
 		if browser == 'chrome_canary':
 			self._applescript("""
-				tell application "Google Chrome Canary"
-					execute front window's active tab javascript "%s"
-				end tell
+				tell application "Google Chrome Canary" to execute front window's active tab javascript "%s"
 			""" % selection)
 		if browser == 'safari':
 			self._applescript("""
@@ -43,8 +39,5 @@ class JsRunCommand(sublime_plugin.TextCommand):
 			""" % selection)
 		if browser == 'opera':
 			self._applescript("""
-				tell application "Opera"
-					activate
-					set URL of front window to "javascript:%s"
-				end tell
+				tell application "Opera" to set URL of front window to "javascript:%s"
 			""" % urllib.quote(selection))
