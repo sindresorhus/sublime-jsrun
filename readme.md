@@ -5,7 +5,7 @@ Sublime plugin to run selected JavaScript code in the browser.
 
 ## Install
 
-Install with [Package Control](http://wbond.net/sublime_packages/package_control)
+Install with [Package Control](http://wbond.net/sublime_packages/package_control) and restart Sublime.
 
 
 ## Getting started
