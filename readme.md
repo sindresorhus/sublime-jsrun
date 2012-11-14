@@ -18,10 +18,20 @@ Select some code or just highlight a line and choose "Run JavaScript in the brow
 Set your preferred browser in the settings: `chrome` (default), `chrome_canary`, `safari`, `opera`  
 (Preferences > Package Settings > JsRun > Settings - User)
 
+Example:
+
+```json
+{
+	"browser": "chrome_canary"
+}
+```
+
 
 ### Keyboard shortcut
 
-You can also set up a keyboard shortcut to run the command by opening up "Preferences > Key Bindings - User" and adding something like this, but with your own shortcut (make sure it doesn't conflict):
+You can also set up a keyboard shortcut to run the command by opening up "Preferences > Key Bindings - User" and adding your shortcut with the `js_run` command.
+
+Example:
 
 ```json
 [
