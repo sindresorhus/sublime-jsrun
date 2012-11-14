@@ -21,11 +21,11 @@ Set your preferred browser in the settings: `chrome` (default), `chrome_canary`,
 
 ### Keyboard shortcut
 
-You can also set up a keyboard shortcut to run the command by opening up "Preferences > Key Bindings - User" and adding:
+You can also set up a keyboard shortcut to run the command by opening up "Preferences > Key Bindings - User" and adding something like this, but with your own shortcut (make sure it doesn't conflict):
 
 ```json
 [
-	{ "keys": ["ctrl+shift+j"], "command": "js_run" }
+	{ "keys": ["alt+super+j"], "command": "js_run" }
 ]
 ```
 
