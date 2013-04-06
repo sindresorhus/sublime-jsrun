@@ -5,11 +5,11 @@
 		"description": "Run selected JavaScript code in the browser",
 		"author": "Sindre Sorhus",
 		"homepage": "https://github.com/sindresorhus/sublime-jsrun",
-		"last_modified": "2013-01-06 04:30:00",
+		"last_modified": "2013-04-07 01:43:00",
 		"platforms": {
 			"osx": [{
-				"version": "0.1.3",
-				"url": "https://github.com/sindresorhus/sublime-jsrun/archive/master.zip"
+				"version": "0.1.4",
+				"url": "https://nodeload.github.com/sindresorhus/sublime-jsrun/zip/master"
 			}]
 		}
 	}]
