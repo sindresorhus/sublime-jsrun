@@ -2,6 +2,8 @@
 
 Sublime plugin to run selected JavaScript code in the browser.
 
+![screenshot](screenshot.gif)
+
 
 ## Install
 
