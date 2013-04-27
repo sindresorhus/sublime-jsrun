@@ -2,13 +2,13 @@
 	"schema_version": "1.2",
 	"packages": [{
 		"name": "JsRun",
-		"description": "Run selected JavaScript code in the browser",
+		"description": "Run JavaScript code in the browser",
 		"author": "Sindre Sorhus",
 		"homepage": "https://github.com/sindresorhus/sublime-jsrun",
-		"last_modified": "2013-04-07 01:43:00",
+		"last_modified": "2013-04-27 02:15:00",
 		"platforms": {
 			"osx": [{
-				"version": "0.1.4",
+				"version": "0.2.0",
 				"url": "https://nodeload.github.com/sindresorhus/sublime-jsrun/zip/master"
 			}]
 		}
