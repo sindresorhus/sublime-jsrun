@@ -9,16 +9,7 @@ Lets you quickly run code from Sublime directly in the browser. You can use it t
 
 ## Install
 
-
-### Sublime Text 2
-
-Install `JsRun` with [Package Control](http://wbond.net/sublime_packages/package_control) and restart Sublime.
-
-
-### Sublime Text 3
-
-[Download](https://github.com/sindresorhus/sublime-jsrun/archive/master.zip), unzip, and put the contents in `~/Library/Application Support/Sublime Text 3/Packages/JsRun`.  
-Will be easier when Package Control is fully compatible.
+Install `JsRun` with [Package Control](https://sublime.wbond.net) and restart Sublime.
 
 
 ## Getting started
