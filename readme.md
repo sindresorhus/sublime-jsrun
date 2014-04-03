@@ -54,4 +54,4 @@ Currently supports Chrome, Chrome Canary, Safari and Opera on OS X. Firefox does
 
 ## License
 
-MIT License • © [Sindre Sorhus](http://sindresorhus.com)
+[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
