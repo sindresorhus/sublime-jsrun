@@ -9,7 +9,7 @@ Lets you quickly run code from Sublime directly in the browser. You can use it t
 
 ## Install
 
-Install `JsRun` with [Package Control](https://sublime.wbond.net) and restart Sublime.
+Install `JsRun` with [Package Control](https://packagecontrol.io) and restart Sublime.
 
 
 ## Getting started
@@ -54,4 +54,4 @@ Currently supports Chrome, Chrome Canary, Safari and Opera on OS X. Firefox does
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](http://sindresorhus.com)
