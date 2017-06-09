@@ -2,7 +2,7 @@
 
 > Sublime plugin to run JavaScript in the browser
 
-![screenshot](screenshot.gif)
+![](screenshot.gif)
 
 Lets you quickly run code from Sublime directly in the browser. You can use it to experiment with manipulating websites, overriding existing code, or any other crazy things you come up with. Let me know if you use it for anything interesting.
 
@@ -23,7 +23,7 @@ Select some code or just highlight a line and choose `Run JavaScript in the brow
 
 Set your preferred browser in the settings: `chrome` (default), `chrome_canary`, `safari`, `opera`
 
-*(Preferences > Package Settings > JsRun > Settings - User)*
+*(Preferences > Package Settings > JsRun)*
 
 Example:
 
@@ -42,7 +42,10 @@ Example:
 
 ```json
 [
-	{ "keys": ["alt+super+j"], "command": "js_run" }
+	{
+		"keys": ["alt+super+j"],
+		"command": "js_run"
+	}
 ]
 ```
 
@@ -54,4 +57,4 @@ Currently supports Chrome, Chrome Canary, Safari and Opera on OS X. Firefox does
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

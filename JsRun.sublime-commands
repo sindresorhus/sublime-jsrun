@@ -1,4 +1,6 @@
-[{
-	"caption": "Run JavaScript in the browser",
-	"command": "js_run"
-}]
+[
+	{
+		"caption": "Run JavaScript in the browser",
+		"command": "js_run"
+	}
+]
