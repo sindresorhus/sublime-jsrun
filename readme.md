@@ -6,11 +6,9 @@
 
 Lets you quickly run code from Sublime directly in the browser. You can use it to experiment with manipulating websites, overriding existing code, or any other crazy things you come up with. Let me know if you use it for anything interesting.
 
-
 ## Install
 
 Install `JsRun` with [Package Control](https://packagecontrol.io) and restart Sublime.
-
 
 ## Getting started
 
@@ -18,12 +16,11 @@ Select some code or just highlight a line and choose `Run JavaScript in the brow
 
 *Remember to open the Console in Dev Tools to see `console.log` output.*
 
-
 ### Options
 
 Set your preferred browser in the settings: `chrome` (default), `chrome_canary`, `safari`, `opera`
 
-*(Preferences > Package Settings > JsRun)*
+*(Settings > Package Settings > JsRun)*
 
 Example:
 
@@ -33,10 +30,9 @@ Example:
 }
 ```
 
-
 ### Keyboard shortcut
 
-You can also set up a keyboard shortcut to run the command by opening up "Preferences > Key Bindings - User" and adding your shortcut with the `js_run` command.
+You can also set up a keyboard shortcut to run the command by opening up "Settings > Key Bindings - User" and adding your shortcut with the `js_run` command.
 
 Example:
 
@@ -49,12 +45,6 @@ Example:
 ]
 ```
 
-
 ### Supported browsers
 
 Currently supports Chrome, Chrome Canary, Safari and Opera on OS X. Firefox doesn't [expose JS to AppleScript](https://bugzilla.mozilla.org/show_bug.cgi?id=5704).
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
